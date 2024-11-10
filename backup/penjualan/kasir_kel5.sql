@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2024 at 03:59 AM
+-- Generation Time: Nov 10, 2024 at 03:22 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -41,82 +41,6 @@ CREATE TABLE `detail_penjualan` (
 --
 
 INSERT INTO `detail_penjualan` (`detail_id`, `kode_produk`, `nama_produk`, `harga`, `jumlah`, `penjualan_id`) VALUES
-(1, 'M.001', 'Nasi Uduk', 20000, 2, 1),
-(2, 'M.002', 'Nasi Goreng Spesial', 25000, 3, 1),
-(3, 'M.003', 'Ayam Geprek', 15000, 1, 1),
-(4, 'M.001', 'Nasi Uduk', 20000, 2, 2),
-(5, 'M.003', 'Ayam Geprek', 15000, 2, 2),
-(6, 'M.001', 'Nasi Uduk', 20000, 3, 3),
-(7, 'M.002', 'Nasi Goreng Spesial', 25000, 3, 3),
-(8, 'M.004', 'Ayam Bakar', 10000, 3, 3),
-(9, 'M.001', 'Nasi Uduk', 20000, 2, 4),
-(10, 'M.003', 'Ayam Geprek', 15000, 3, 4),
-(11, 'M.004', 'Ayam Bakar', 10000, 2, 5),
-(12, 'M.003', 'Ayam Geprek', 15000, 1, 5),
-(13, 'M.001', 'Nasi Uduk', 20000, 2, 6),
-(14, 'M.003', 'Ayam Geprek', 15000, 2, 6),
-(15, 'M.001', 'Nasi Uduk', 20000, 2, 7),
-(16, 'M.001', 'Nasi Uduk', 20000, 2, 8),
-(17, 'M.003', 'Ayam Geprek', 15000, 3, 8),
-(18, 'M.005', 'Nila Bakar', 25000, 2, 8),
-(19, 'M.001', 'Nasi Uduk', 20000, 2, 9),
-(20, 'M.002', 'Nasi Goreng Spesial', 25000, 2, 9),
-(21, 'M.003', 'Ayam Geprek', 15000, 4, 9),
-(22, 'M.001', 'Nasi Uduk', 20000, 1, 10),
-(23, 'M.005', 'Nila Bakar', 25000, 5, 10),
-(24, 'M.003', 'Ayam Geprek', 15000, 2, 10),
-(25, 'M.003', 'Ayam Geprek', 15000, 5, 11),
-(26, 'M.001', 'Nasi Uduk', 20000, 5, 11),
-(27, 'M.002', 'Nasi Goreng Spesial', 25000, 5, 12),
-(28, 'M.003', 'Ayam Geprek', 15000, 2, 12),
-(29, 'M.004', 'Ayam Bakar', 10000, 3, 12),
-(30, 'M.001', 'Nasi Uduk', 20000, 2, 13),
-(31, 'M.002', 'Nasi Goreng Spesial', 25000, 3, 14),
-(32, 'M.004', 'Ayam Bakar', 10000, 3, 14),
-(33, 'M.005', 'Nila Bakar', 25000, 3, 14),
-(34, 'D.002', 'Jus Sirsak', 10000, 3, 14),
-(35, 'M.001', 'Nasi Uduk', 20000, 3, 15),
-(36, 'M.003', 'Ayam Geprek', 15000, 1, 15),
-(37, 'D.002', 'Jus Sirsak', 10000, 1, 15),
-(38, 'D.002', 'Jus Sirsak', 10000, 3, 16),
-(39, 'M.001', 'Nasi Uduk', 20000, 3, 16),
-(40, 'D.002', 'Jus Sirsak', 10000, 3, 17),
-(41, 'M.002', 'Nasi Goreng Spesial', 25000, 2, 17),
-(44, 'M.003', 'Ayam Geprek', 15000, 1, 17),
-(46, 'M.001', 'Nasi Uduk', 20000, 2, 18),
-(47, 'D.001', 'Jus Alpukat', 10000, 2, 18),
-(48, 'M.002', 'Nasi Goreng Spesial', 25000, 3, 19),
-(49, 'M.004', 'Ayam Bakar', 10000, 2, 19),
-(50, 'D.001', 'Jus Alpukat', 10000, 5, 19),
-(51, 'M.001', 'Nasi Uduk', 20000, 1, 20),
-(52, 'M.003', 'Ayam Geprek', 15000, 3, 20),
-(53, 'M.001', 'Nasi Uduk', 20000, 2, 21),
-(54, 'M.003', 'Ayam Geprek', 15000, 1, 21),
-(55, 'D.001', 'Jus Alpukat', 10000, 3, 21),
-(56, 'M.001', 'Nasi Uduk', 20000, 5, 22),
-(57, 'M.005', 'Nila Bakar', 25000, 5, 22),
-(58, 'M.001', 'Nasi Uduk', 20000, 2, 23),
-(59, 'M.002', 'Nasi Goreng Spesial', 25000, 2, 23),
-(60, 'M.003', 'Ayam Geprek', 15000, 1, 23),
-(61, 'M.002', 'Nasi Goreng Spesial', 25000, 3, 24),
-(62, 'D.002', 'Jus Sirsak', 10000, 2, 24),
-(63, 'M.002', 'Nasi Goreng Spesial', 25000, 2, 25),
-(64, 'M.003', 'Ayam Geprek', 15000, 1, 25),
-(65, 'M.002', 'Nasi Goreng Spesial', 25000, 1, 26),
-(66, 'M.005', 'Nila Bakar', 25000, 1, 27),
-(67, 'M.001', 'Nasi Uduk', 20000, 1, 30),
-(68, 'M.001', 'Nasi Uduk', 20000, 1, 31),
-(69, 'M.002', 'Nasi Goreng Spesial', 25000, 1, 35),
-(70, 'M.002', 'Nasi Goreng Spesial', 25000, 1, 36),
-(71, 'M.002', 'Nasi Goreng Spesial', 25000, 1, NULL),
-(72, 'M.001', 'Nasi Uduk', 20000, 1, 37),
-(73, 'M.001', 'Nasi Uduk', 20000, 1, 41),
-(74, 'M.002', 'Nasi Goreng Spesial', 25000, 1, 41),
-(75, 'M.003', 'Ayam Geprek', 15000, 1, 42),
-(76, 'M.002', 'Nasi Goreng Spesial', 25000, 1, 43),
-(77, 'M.001', 'Nasi Uduk', 20000, 1, 44),
-(78, 'M.001', 'Nasi Uduk', 20000, 3, 46),
-(79, 'M.001', 'Nasi Uduk', 20000, 1, 47),
 (80, 'M.001', 'Teh Pucuk', 3000, 2, 48),
 (81, 'M.002', 'Cocacola', 4000, 1, 51),
 (82, 'M.003', 'Sprit', 4000, 1, 51),
@@ -225,13 +149,9 @@ INSERT INTO `penjualan` (`penjualan_id`, `tanggal`, `total_harga`, `bayar`, `id_
 (82, '2024-11-07 08:52:20', NULL, NULL, NULL, 0, NULL),
 (83, '2024-11-07 08:52:35', 2000, 3000, NULL, 11, 'petugas'),
 (84, '2024-11-07 08:56:50', 10000, 5000000, NULL, 11, 'petugas'),
-(85, '2024-11-07 10:52:08', NULL, NULL, NULL, 0, NULL),
 (86, '2024-11-07 10:58:59', 2000, 3000, NULL, 5, 'Latif'),
 (87, '2024-11-07 11:10:25', 12000, 20000, 1, 5, 'Latif'),
-(88, '2024-11-07 11:19:12', NULL, NULL, NULL, 0, NULL),
-(89, '2024-11-07 11:33:30', NULL, NULL, NULL, 0, NULL),
-(90, '2024-11-07 11:34:51', NULL, NULL, NULL, 0, NULL),
-(91, '2024-11-07 11:44:46', NULL, NULL, NULL, 0, NULL);
+(92, '2024-11-10 21:20:03', NULL, NULL, NULL, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -370,7 +290,7 @@ ALTER TABLE `detail_penjualan`
 -- AUTO_INCREMENT for table `penjualan`
 --
 ALTER TABLE `penjualan`
-  MODIFY `penjualan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `penjualan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
 
 --
 -- AUTO_INCREMENT for table `petugas`
