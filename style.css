@@ -1,0 +1,572 @@
+.backimg{
+    background-image:url("img/login2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+.kotak_login{
+    background:white;
+    margin-top: 10vh;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 0 0 10px 0 #333;
+    text-align: center;
+    /*background: white;*/
+    margin: 0px auto;
+    background: rgba(255,255,255,.8);
+    
+}
+.login input[type="checkbox"]{
+	transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    margin: 10px 5px 5px 0;
+}
+small{
+color:beige;
+}
+img{
+border-radius:70px;
+}
+
+a{
+color:rgb(47, 0, 255);
+}
+h2,label,link{
+color:black;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	height: 100%;
+	font: 14px "Tahoma";
+}
+.atas{
+	width: 100%;
+	background: linear-gradient(#000099,blue);
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px orange solid;
+	position: fixed;
+	box-shadow: 0 0 10px 0 #333;
+}
+.atas-konten{
+	width: 1000px;
+	margin: 0px auto;
+}
+.tengah{
+	width: 980px;
+	padding: 100px 20px 70px 20px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.bawah{
+	width: 100%;
+	background: linear-gradient(blue,#000099);
+	color: white;
+	text-align: center;
+	padding: 15px 0;
+	position: fixed;
+	bottom: 0;
+	border-top: 3px orange solid;
+	font: 12px "Tahoma";
+	box-shadow: 0 0 10px 0 #333;
+}
+.atas-kiri{
+	width: 260px;
+	padding: 20px;
+	float: left;
+}
+.atas-kanan{
+	width: 650px;
+	padding: 30px 20px;
+	float: right;
+	text-align: right;
+}
+.atas-kanan a{
+	padding: 7px 15px;
+	margin: 3px;
+	/*border: 2px white solid;*/
+	color: white;
+	border-radius: 10px 0 10px 0;
+	font: 12px "Tahoma";
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 0 2px 2px white;
+}
+.atas-kiri big{
+	font: 24px "Tahoma";
+	font-weight: bold;
+}
+.atas-kiri small{
+	font: 24px "Brush Script MT";
+	color : gold;
+}
+.atas-kanan a:hover{
+	background: linear-gradient(gold,orange);
+	color: blue;
+	box-shadow: 0 0 2px 2px gold;
+}
+.window{
+	width: 400px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	padding: 20px;
+	margin: 0 auto;
+	top: 50%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.login h1{
+	color: #666;
+	margin: 10px 0;
+}
+.login input[type="text"], .login input[type="password"]{
+	padding: 10px;
+	width: 260px;
+	text-align: center;
+	margin: 5px 0;
+	outline: none;
+}
+.login input[type="submit"]{
+	padding: 12px;
+	width: 285px;
+	text-align: center;
+	background: blue;
+	color: white;
+	border: none;
+	margin: 5px 0 20px 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.login input[type="submit"]:hover{
+	background: linear-gradient(gold,orange);
+}
+
+.window small{
+	font: 11px "Tahoma";
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+}
+.window a{
+	font: 12px "Tahoma";
+	font-weight: bold;
+	color: gold;
+	text-decoration: none;
+}
+.redup{
+	background: rgba(0,0,0,.5);
+}
+
+p{
+	margin: 15px 0;
+	text-align: justify;
+	line-height:1.5;
+}
+
+
+.home-section{
+    position: relative;
+    background: #E4E9F7;
+    height: 100vh;
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: all 0.5s ease;
+  }
+  .sidebar.close ~ .home-section{
+    left: 78px;
+    width: calc(100% - 78px);
+  }
+  .home-section .home-content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .home-section .home-content .bx-menu,
+  .home-section .home-content .text{
+    color: #11101d;
+    font-size: 35px;
+  }
+  .home-section .home-content .bx-menu{
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  .home-section .home-content .text{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  h1{
+      text-align: center;
+      /*ketebalan font*/
+      font-weight: 300;
+  }
+   
+  .tulisan_login{
+      text-align: center;
+      /*membuat semua huruf menjadi kapital*/
+      text-transform: uppercase;
+  }
+   
+  
+  .kotak_tambah{
+      width: 450px;
+      background: rgb(145, 145, 145);
+      /*meletakkan form ke tengah*/
+      margin: 80px auto;
+      padding: 30px 20px;
+    border-radius: 10px;
+      box-shadow: 0px 0px 100px 4px #d6d6d6;
+  }
+  .kotak_stok{
+      width: 150px;
+      background: rgb(145, 145, 145);
+      /*meletakkan form ke tengah*/
+      margin: 20px auto;
+      padding: 30px 10px;
+    border-radius: 10px;
+      box-shadow: 0px 0px 100px 4px #d6d6d6;
+  }
+  .kotak_jual{
+      width: 150px;
+      background: rgb(255, 0, 0);
+      /*meletakkan form ke tengah*/
+      margin: 20px auto;
+      padding: 30px 10px;
+    border-radius: 10px;
+      box-shadow: 0px 0px 100px 4px #d6d6d6;
+  }
+  label{
+      font-size: 11pt;
+  }
+   
+  .form_login{
+      /*membuat lebar form penuh*/
+      box-sizing : border-box;
+      width: 100%;
+      padding: 10px;
+      font-size: 11pt;
+      margin-bottom: 20px;
+  }
+   
+  .tombol_login{
+      background: #2aa7e2;
+      color: white;
+      font-size: 11pt;
+      width: 100%;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+  }
+   
+  .link{
+      color: #232323;
+      text-decoration: none;
+      font-size: 10pt;
+  }
+  .alert{
+      background: #e44e4e;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border:1px solid #b32929;
+  }
+  header{
+      background-color: #16a085;
+      position: absolute; height: 80px;
+      width: 100%;
+      text-align: center;
+      left: 0px;
+      top: 0px;
+      color: white;
+      text-align: center;
+      font-size: 18px;}
+      .menu{
+      background-color: #f7f7f7;
+      position: absolute;
+      height: 40px;
+      width: 100%;
+      top: 80px;
+      color: white;
+      text-align: left;
+      font-size: 18px;
+      left: 0px;
+      }
+      .utama{
+      background-color: #dddada;
+      position: absolute; left: 0px;
+      top: 120px;
+      height: 480px;
+      width: 100%;
+      padding-left: 50px;
+      }
+      footer{
+      position: absolute;
+      height: 6%;
+      width: 100%;
+      left: 0px;
+      top: 600px;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      padding-top: 15px;
+      }
+      font{
+          color:#d6d6d6;
+      }
+  /* Google Fonts Import Link */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #11101d;
+    z-index: 100;
+    transition: all 0.5s ease;
+  }
+  .sidebar.close{
+    width: 78px;
+  }
+  .sidebar .logo-details{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .sidebar .logo-details i{
+    font-size: 30px;
+    color: #ffffff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .sidebar .logo-details .logo_name{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+  }
+  .sidebar.close .logo-details .logo_name{
+    transition-delay: 0s;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .sidebar .nav-links{
+    height: 100%;
+    padding: 30px 0 150px 0;
+    overflow: auto;
+  }
+  .sidebar.close .nav-links{
+    overflow: visible;
+  }
+  .sidebar .nav-links::-webkit-scrollbar{
+    display: none;
+  }
+  .sidebar .nav-links li{
+    position: relative;
+    list-style: none;
+    transition: all 0.4s ease;
+  }
+  .sidebar .nav-links li:hover{
+    background: #31261b;
+  }
+  .sidebar .nav-links li .iocn-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar.close .nav-links li .iocn-link{
+    display: block
+  }
+  .sidebar .nav-links li i{
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .sidebar .nav-links li.showMenu i.arrow{
+    transform: rotate(-180deg);
+  }
+  .sidebar.close .nav-links i.arrow{
+    display: none;
+  }
+  .sidebar .nav-links li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .sidebar .nav-links li a .link_name{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  .sidebar.close .nav-links li a .link_name{
+    opacity: 0;
+    pointer-events: none;
+  }
+  .sidebar .nav-links li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: #1d1b31;
+    display: none;
+  }
+  .sidebar .nav-links li.showMenu .sub-menu{
+    display: block;
+  }
+  .sidebar .nav-links li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+  }
+  .sidebar .nav-links li .sub-menu a:hover{
+    opacity: 1;
+  }
+  .sidebar.close .nav-links li .sub-menu{
+    position: absolute;
+    left: 100%;
+    top: -10px;
+    margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
+    opacity: 0;
+    display: block;
+    pointer-events: none;
+    transition: 0s;
+  }
+  .sidebar.close .nav-links li:hover .sub-menu{
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+  }
+  .sidebar .nav-links li .sub-menu .link_name{
+    display: none;
+  }
+  .sidebar.close .nav-links li .sub-menu .link_name{
+    font-size: 18px;
+    opacity: 1;
+    display: block;
+  }
+  .sidebar .nav-links li .sub-menu.blank{
+    opacity: 1;
+    pointer-events: auto;
+    padding: 3px 20px 6px 16px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .sidebar .nav-links li:hover .sub-menu.blank{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .sidebar .profile-details{
+    position: fixed;
+    bottom: 0;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1d1b31;
+    padding: 12px 0;
+    transition: all 0.5s ease;
+  }
+  .sidebar.close .profile-details{
+    background: none;
+  }
+  .sidebar.close .profile-details{
+    width: 78px;
+  }
+  .sidebar .profile-details .profile-content{
+    display: flex;
+    align-items: center;
+  }
+  .sidebar .profile-details img{
+    height: 52px;
+    width: 52px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 0 14px 0 12px;
+    background: #1d1b31;
+    transition: all 0.5s ease;
+  }
+  .sidebar.close .profile-details img{
+    padding: 10px;
+  }
+  .sidebar .profile-details .profile_name,
+  .sidebar .profile-details .job{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .sidebar.close .profile-details i,
+  .sidebar.close .profile-details .profile_name,
+  .sidebar.close .profile-details .job{
+    display: none;
+  }
+  .sidebar .profile-details .job{
+    font-size: 12px;
+  }
+  
+  @media (max-width: 420px) {
+    .sidebar.close .nav-links li .sub-menu{
+      display: none;
+    }
+  }
+  table {
+    border-collapse: collapse;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"]
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+  .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+  .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+  .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+  .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+  .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  .homei{
+    overflow: auto;
+  }
+  
